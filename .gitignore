@@ -1,0 +1,29 @@
+# Generated reports
+*.html
+*.mmd
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env/
+
+# AWS data exports (may contain sensitive info)
+aws-data/
+*-data/
+!sample-data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
